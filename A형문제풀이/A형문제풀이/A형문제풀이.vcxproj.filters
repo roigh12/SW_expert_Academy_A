@@ -23,7 +23,7 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5658. [모의 SW 역량테스트] 보물상자 비밀번호.cpp">
+    <ClCompile Include="2117. [모의 SW 역량테스트] 홈 방범 서비스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

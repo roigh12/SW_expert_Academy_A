@@ -134,7 +134,7 @@
     <Text Include="b.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="5658. [모의 SW 역량테스트] 보물상자 비밀번호.cpp" />
+    <ClCompile Include="2117. [모의 SW 역량테스트] 홈 방범 서비스.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
