@@ -17,12 +17,12 @@ void dfs(int x, int y, int dir, int cnt) {
 		ans = cnt > ans ? cnt : ans;
 		return;
 	}
-	
+
 	int nx = x + dx[dir], ny = y + dy[dir];
-	if (isInside(nx,ny) && !visit[nx][ny] && !desert[map[nx][ny]]) {
+	if (isInside(nx, ny) && !visit[nx][ny] && !desert[map[nx][ny]]) {
 		desert[map[nx][ny]] = 1;
 		visit[nx][ny] = 1;
-		dfs(nx, ny, dir, cnt+1);
+		dfs(nx, ny, dir, cnt + 1);
 		visit[nx][ny] = 0;
 		desert[map[nx][ny]] = 0;
 	}
@@ -32,7 +32,7 @@ void dfs(int x, int y, int dir, int cnt) {
 		if (isInside(nx, ny) && !visit[nx][ny] && !desert[map[nx][ny]]) {
 			desert[map[nx][ny]] = 1;
 			visit[nx][ny] = 1;
-			dfs(nx, ny, dir + 1,cnt+1);
+			dfs(nx, ny, dir + 1, cnt + 1);
 			visit[nx][ny] = 0;
 			desert[map[nx][ny]] = 0;
 		}
